@@ -5,36 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
     <title>FCUKSENSE</title>
 </head>
 
 <body>
-    <div>
-        <h2 class="brand">FCUKSENSE</h2>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <div class="left-container">
+        <h2 class="brand">Fcuksense</h2>
+        <h1 class="heading">Artificial inteligence driving<br> results for the travel industry</h1>
+        <p class="small-text">Welcome Back. Please login to your account</p>
         <form>
-            <label for="email"> Email Address</label>
-            <input type="email">
-            <label for="password">Password</label>
-            <input type="password">
-            <div>
-                <input type="checkbox">
-                <div>Remember me</div>
-                <a href="#">Forgot Password?</a>
+            <div class="email-box">
+                <label for="email"> Email Address</label>
+                <input type="email">
             </div>
+            <div class="password-box">
+                <label for="password">Password</label>
+                <input type="password">
+            </div>
+        </form>
+        <div class="under-form-text">
+            <div>
+                <input type="checkbox" id="check" name="check" value="Remember">
+                <label for="checkbox"> Remember me?</label>
+            </div>
+            <a href="#">Forgot Password?</a>
+        </div>
+        <div class="buttons">
             <button type="submit">Login</button>
             <button type="submit">Sign Up</button>
-        </form>
+        </div>
         <nav>
-            <p>Or login with</p>
+            <div>Or login with</div>
             <a href="#">Facebook</a>
             <a href="#">LinkedIn</a>
             <a href="#">Google</a>
         </nav>
     </div>
-    <img src="./img/BigImage.png" alt="Image">
+    <div class="right-container"></div>
     <script type="module " src="./js/main.js" defer></script>
 </body>
 
